@@ -1,6 +1,5 @@
 .env
-src/auth/config.js
-
+config.js
 
 
 # Logs

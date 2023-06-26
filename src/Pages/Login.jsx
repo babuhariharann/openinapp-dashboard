@@ -4,7 +4,7 @@ import { signInWithPopup } from "firebase/auth";
 
 import { DiApple, FcGoogle } from "../assets/icons/index";
 import { LoginInput } from "../components";
-import { auth, provider } from "../auth/config.js";
+import { auth, provider } from "../../config";
 
 const Login = ({ setIsLoggedIn }) => {
   // Navigation
