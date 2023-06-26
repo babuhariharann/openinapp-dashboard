@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* Custom CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-scrollbar {
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+
+.scroll-content {
+  max-height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-color: transparent transparent;
+}
+
+.scroll-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebar-wrapper {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.scroll-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
