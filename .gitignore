@@ -1,5 +1,5 @@
 .env
-.src/auth/config.js
+src/auth/config.js
 
 
 
